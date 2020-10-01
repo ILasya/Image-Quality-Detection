@@ -34,9 +34,7 @@ Link to download the dataset:
 
 In order to run this code
 
-Step 1: Open Laplacian-Method-Evaluation.ipynb in your Jupyter Notebook
-
-Step 2: Click on the Run button.
+```Run Laplacian-Method-Evaluation.ipynb in your Jupyter Notebook```
 
 The test accuracies after execution are:
 
@@ -52,9 +50,11 @@ The test accuracies after execution are:
 
 In order to run this code
 
-Step 1: Open CNN-Model-Evaluation.ipynb in your Jupyter Notebook
+Step 1: Run CNN-Pre-Processing.ipynb in your Jupyter Notebook. This generates two pickle files X.pkl and Y.pkl.
 
-Step 2: Click on the Run button.
+Step 2: Then, run CNN-Model-Training.ipynb. This generates model_weights.h5 file containing the weights of the trained model.
+
+Step 3: Finally, run CNN-Model-Evaluation.ipynb. This code applies the model to the evaluation set and predicts if the Image is blurred.
 
 The test accuracies after execution are:
 
